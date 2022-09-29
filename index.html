@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/48b2868052.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./textillate-master/assets/animate.css">
+    <link rel="stylesheet" href="./textillate-master/assets/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    
+    
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+        <div class="music absolute flex flex-col justify-center items-center w-full h-screen bg-black">
+            <h1 class="title-music text-6xl mb-6">effets sonores/musique ?</h1>
+            <div class="choix flex justify-center items-center">
+                <h1 class="yes m-6  border-2 text-5xl text-center text-slate-50 px-6 py-2 hover:bg-slate-50 hover:text-slate-900 transition rounded hover:scale-125">Oui</h1>
+                <h1 class="no m-6  border-2 text-5xl text-center text-slate-50 px-6 py-2 hover:bg-slate-50 hover:text-slate-900 transition rounded hover:scale-125">Non</h1>
+            </div>
+        </div>
+
+        <div class="glitch"></div>
+            <div class="phonenav">
+                <div class="burger">
+                    <i class="fa-solid fa-bars fa-3x"></i>
+                </div>
+            </div>
+        <div class="nav flex justify-evenly items-center">
+            <a href="./ressources/cv.jpg" download><h1 class="cv contact c0 ring-2 ring-white py-2 px-8 relative hover:bg-white hover:bg-opacity-80 hover:text-black transition-all rounded-sm">CV <i class="fa-solid fa-download"></i></h1></a>
+            <a href="#" id="home"><h1 class="contact c1 py-2 px-8">Home</h1></a>
+            <a href="#aboutt" id="abou"><h1 class="contact c2 py-2 px-8">About</h1></a>
+            <a href="#expertises" id="exper"><h1 class="contact c5 py-2 px-8">Expertises</h1></a>
+            <a href="#projects" id="projectss"><h1 class="contact c3 py-2 px-8">Projects</h1></a>
+            <a href="#contactt" id="contact"><h1 class="contact c4 py-2 px-8">Contact</h1></a>
+        </div>
+        <div class="menu-phone justify-evenly items-center h-[50vh] w-[100vw] fixed z-50 pointer-events-none flex-col ">
+            <a href="./ressources/cv.jpg" download><h1 class="cv contact c0 ring-2 ring-white py-2 px-8 relative hover:bg-white hover:bg-opacity-80 hover:text-black transition-all rounded-sm">CV <i class="fa-solid fa-download"></i></h1></a>
+            <a href="#" id="home"><h1 class="contact bg2 c1 py-2 px-8">Home</h1></a>
+            <a href="#aboutt" id="abou"><h1 class="contact bg3 c2 py-2 px-8">About</h1></a>
+            <a href="#expertises" id="exper"><h1 class="contact bg4 c5 py-2 px-8">Expertises</h1></a>
+            <a href="#projects" id="projectss"><h1 class="contact bg5 c3 py-2 px-8">Projects</h1></a>
+            <a href="#contactt" id="contact"><h1 class="contact bg6 c4 py-2 px-8">Contact</h1></a>
+        </div>
+
+            <div class="cont w-full bg-stone-50 flex justify-center items-center flex-col">
+                <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                    <source src="/ressources/videoplayback.mp4" type="video/mp4">
+                    </video>
+                <div class="winTop w-full h-[50vh] bg-black absolute top-0 flex justify-center items-end"></div>
+                <div class="winBot w-full bg-black absolute bottom-0 flex justify-center items-center">
+                    <h1>blabla</h1>
+                    <input type="range" name="volume" id="vol" min="0" max="100" step="1">
+                    <div class="blasdf px-6 pt-6">
+                        <div class="music-box flex flex-col justify-center items-center">
+                            <h1 class="text-box text-xl mb-4">Song: The Pod</h1>
+                            <div class="vol-box flex justify-center items-center relative">
+                                <div class="clickable1">
+                                    <i class="left fa-solid fa-arrow-left fa-2xl fa-beat absolute"></i>
+                                </div>
+                                <div class="img-box rounded-xl mb-4 mx-6 relative drop-shadow-md"></div>
+                                <div class="clickable">
+                                    <i class="right fa-solid fa-arrow-right fa-2xl fa-beat absolute"></i>
+                                </div>
+                                <!-- <div class="justtest bg-stone-50"></div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='circular-text' class="text-xl">Click on my profil !</div>
+                <div class="line"></div>
+                <div class="circle rounded-full w-[250px] h-[250px] cursor-pointer">
+                    <div class="subLine"></div>
+                </div>
+            </div>
+    
+    
+    <div class="transi tr1 h-[50vh] w-full translate-y-[100vh]"></div>
+            
+            <div id="aboutt" class ="w-full relative">
+                <div class="containerr flex flex-col justify-center items-center">
+                    <div class="cont-title">
+                        <h1 class="ab-title text-9xl">Bonjour</h1>
+                        <img src="/ressources/426-4264924_cute-star-vector-star-icon-svg-hd-png.png" alt="" class="star">
+                    </div>
+                    <div class="wraptext">
+                        <p class="text text-slate-50 text-xl"></span>
+                </div>
+                    <div class="wline"></div>
+                    <div class="wline"></div>
+                    <div class="wline"></div>
+                </div>
+            </div>
+            <!-- <div class="fadee"></div> -->
+            <div class="transi tr2 h-[50vh] w-full translate-y-[100vh]"></div>
+            <div id="expertises">
+                <h1 class="expp">Expertises</h1>
+                <h1 class="exp exp1">Html</h1>
+                <h1 class="exp exp2">CSS</h1>
+                <h1 class="exp exp3">JavaScript</h1>
+                <h1 class="exp exp4">VueJs</h1>
+                <h1 class="exp exp5">Tailwindcss</h1>
+                <h1 class="exp exp6">GSAP</h1>
+            </div>
+            <div class="transi tr3 h-[50vh] w-full translate-y-[100vh]"></div>
+            <!-- <div class="fadee"></div> -->
+            <div id="projects">
+                <h1 class="p-title text-9xl mb-36">Projets</h1>
+                <div class="cont-projet flex items-center justify-around">
+
+                    <a href="https://juliensuan.github.io/Moonlighter/" target="_blank"><div class="projet1 proj">
+                        <video id="projet" class="transition-all" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                            <source src="/ressources/2022-09-12-14-57-49_1.mp4" type="video/mp4">
+                            </video>
+                   </a> </div>
+                    <a href="https://www.playallforone.com/#/" target="_blank"><div class="projet2 proj">
+                        <video id="projet" class="transition-all" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                            <source src="/ressources/2022-09-12-14-57-49.mp4" type="video/mp4">
+                            </video></a></div>
+                            <a href="https://juliensuan.github.io/LettreDeMotivation/" target="_blank">
+                    <div class="projet3 proj">
+                        <video id="projet" class="transition-all" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                            <source src="/ressources/2022-09-12-14-57-49_2.mp4" type="video/mp4">
+                            </video>
+                    </div></a>
+                </div>
+            </div>
+            <div id="contactt">
+                <div class="transi tr4 h-[50vh] w-full flex justify-center items-center">
+                    <a href="mailto:jbigot.dev@gmail.com"><div class="flex flex-col justify-center items-center">
+                        <i class="fa-solid fa-envelope relative fa-6x mx-20 mb-2"></i></a>
+                        <h1 class=" mail relative text-xl">jbigot.dev@gmail.com</h1>
+                    </div>
+                    <div class="num flex flex-col justify-center items-center">
+                        <i class="fa-solid fa-phone relative fa-6x mx-20  mb-2"></i>
+                        <h1 class="relative text-xl">06 44 37 56 54</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- loader -->
+
+            <div class="loader">
+                <div class="imgloader"></div>
+            </div>
+
+<script>
+    $(window).on("load", function(){
+        $(".loader").fadeOut("slow");
+    })
+</script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="./textillate-master/assets/jquery.lettering.js"></script>
+    <script src="./textillate-master/jquery.textillate.js"></script>
+    <script src="./dist/main.js"></script>
+</body>
+</html>
